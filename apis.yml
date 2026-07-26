@@ -1,8 +1,25 @@
 aid: ferra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ferra.png
 name: Ferra
-description: 'Ferra is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Ferra is a smart home strength-training system for adults aged 50 and over,
+  built by Aroleap Fitness Private Limited in Bengaluru, India. It pairs a compact wall-mounted
+  adaptive-resistance machine with a mobile app that queues a short guided daily workout of
+  seven functional movements, adapts the weight in real time, tracks progress, and lets users
+  share achievements with family. The service is sold as a no-lock-in monthly subscription
+  (Individual, Duo, and Family tiers) billed through UPI auto-debit. Ferra is a consumer
+  product with no public developer platform or API; this profile captures its identity and
+  public web properties for the API Evangelist network. Backed by Prosus Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/ferra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,25 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-operator: Aroleap Fitness Private Limited
+x-founders:
+- Anurag Dani
+- Rohit Patel
+x-headquarters: Bengaluru, India
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Fitness
+- Health
+- Wellness
+- Strength Training
+- Connected Hardware
+- Subscription
+- Aging
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://ferra.club
+- type: Blog
+  url: https://ferra.club/blog
+- type: SignUp
+  url: https://apps.apple.com/in/app/ferra-club/id6749311396
+- type: Support
+  url: mailto:hello@ferra.club
+- type: PrivacyPolicy
+  url: https://ferra.club/privacy
+- type: TermsOfService
+  url: https://ferra.club/terms
+- type: DomainSecurity
+  url: security/ferra-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
